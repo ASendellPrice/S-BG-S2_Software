@@ -24,24 +24,25 @@ To demonstrate changing the contents of a file, below I use the command line tex
 
 ![](gifs/change_file_content_nano.gif)
 
-An alternative method of making this change to the file would be to use the sed command to find and replace the text as shown in the screencast below. I also make use of the pattern matching command grep to show that BRCA2 has been removed from the list of green genes.
+An alternative method of making this change to the file would be to use the `sed` command to find and replace the text as shown in the screencast below. I also make use of the pattern matching command `grep` to show that BRCA2 has been removed from the list of green genes.
 
 ![](gifs/change_file_content_sed.gif)
 
 
 ## Change a file owner and permissions
-
-NEED TO ADD CHANGE OF OWNER
+File permissions refers to whether a file can be read, written (changed), or executed by a user. In some instances it may be appropriate to limit file permissions such as making a file read only. Making a file read only helps to ensure that the file is not accidently deleted or modified. Below I use the `chmod` command to make the list of green genes read only. I also make use of the `ls` command to confirm that file permisions have been changed.
 
 ![](gifs/chmod.gif)
 
-
+*ADD: change file owner*
+*UPDARE: chmod should be 444 (sets to read only for owner, group and others)
 
 ## Identify the process taking up the most memory
 
 ![](gifs/top_memory.gif)
 
 ## Check file system disk space usage
+The disk space usage of the file system can be checked, use the `df` command. The -H option provides human-readable output.
 
 ![](gifs/disk_usage.gif)
 
