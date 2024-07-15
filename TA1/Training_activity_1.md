@@ -23,6 +23,7 @@ count=$(cat gene_blacklist.txt | wc -l)
 echo "The black list contains" $count "genes"
 ```
 
+![image description](TA1/count_lines.gif)
 
 
  
