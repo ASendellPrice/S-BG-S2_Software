@@ -30,9 +30,20 @@ An alternative method of making this change to the file would be to use the sed 
 
 
 ## Change a file owner and permissions
+
+NEED TO ADD CHANGE OF OWNER
+
+![](gifs/chmod.gif)
+
+
+
 ## Identify the process taking up the most memory
+
+![](gifs/top_memory.gif)
+
 ## Check file system disk space usage
 
+![](gifs/disk_usage.gif)
 
 
 
