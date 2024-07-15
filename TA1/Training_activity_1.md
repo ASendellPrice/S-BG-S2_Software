@@ -1,4 +1,5 @@
 # S-BG-S2: Training Activity 1
+Ashley Sendell-Price
 
 ## Details
 Use Linux command line and command line tools to:
@@ -19,7 +20,18 @@ As each line in this file represents a gene, the number of genes can easily be d
 
 
 ## Change the content of a file
+To demonstrate changing the contents of a file, below I use the command line text editor `nano` to remove the BRCA2 gene from the list of green genes. The BRCA2 gene is associated with an increased risk of breast and ovarian cancer. In pediatric referrals, this gene might be removed from the green list if a pathogenic variant is known to occur within the child's family. This precaution is taken to avoid revealing the child's BRCA2 status during childhood.
 
+![](gifs/change_file_content_nano.gif)
+
+An alternative method of making this change to the file would be to use the sed command to find and replace the text as shown in the screencast below. I also make use of the pattern matching command grep to show that BRCA2 has been removed from the list of green genes.
+
+![](gifs/change_file_content_sed.gif)
+
+
+## Change a file owner and permissions
+## Identify the process taking up the most memory
+## Check file system disk space usage
 
 
 
